@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Cadastro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  Preencha os dados solicitados:
+
+<html>
+  <head>
+    <title> Cadastro de Usuário </title>
+  </head>
+  <body>
+    <form method="POST" action="cadastro.php">
+      <table>
+      <tr><td><label>Login:</label></td><td><input type="text" name="login" id="login" required><br></td></tr>
+      <tr><td><label>Senha:</label></td><td><input type="password" name="senha" id="senha" required><br></td></tr>
+      <tr><td><label>Nome:</label></td><td><input type="text" name="nome" id="nome" required><br></td></tr>
+      <tr><td><label>CPF:</label></td><td><input type="cpf" name="cpf" id="cpf" required><br></td></tr>
+      <tr><td><label>Data de Nascimento:</label></td><td><input type="date" name="datan" id="datan" required><br></td></tr>
+      <tr><td><label>E-mail:</label></td><td><input type="email" name="email" id="email" required><br></td></tr>
+      <tr><td><label>Telefone:</label></td><td><input type="tel" name="telefone" id="telefone" placeholder="12-3456-7890"pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required /><br></td></tr>
+      <span class="validity"></span>
+    </table>
+      <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+    </form>
+  </body>
+</html>
+
+</ion-content>

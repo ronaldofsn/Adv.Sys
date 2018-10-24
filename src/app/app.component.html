@@ -13,6 +13,21 @@
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
               <ion-label>
                 {{p.title}}
+                <html>
+                <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+                <script>
+                  // Initialize Firebase
+                  var config = {
+                    apiKey: "AIzaSyDO0fcf3jjN1Rc1egSJpHWh_AceG-OsiLg",
+                    authDomain: "advsys-cfc3a.firebaseapp.com",
+                    databaseURL: "https://advsys-cfc3a.firebaseio.com",
+                    projectId: "advsys-cfc3a",
+                    storageBucket: "advsys-cfc3a.appspot.com",
+                    messagingSenderId: "668121223214"
+                  };
+                  firebase.initializeApp(config);
+                </script>
+                </html>
               </ion-label>
             </ion-item>
           </ion-menu-toggle>

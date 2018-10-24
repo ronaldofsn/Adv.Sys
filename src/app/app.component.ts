@@ -16,6 +16,11 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title: 'Cadastro',
+      url: '/cadastro',
+      icon: 'wifi'
+    },
+    {
       title: 'Lista',
       url: '/list',
       icon: 'list'

@@ -18,6 +18,10 @@ const routes: Routes = [
     {
     path: 'processos',
     loadChildren: './processos/processos.module#ProcessosPageModule'
+  },
+  {
+    path: 'cadastro',
+    loadChildren: './cadastro/cadastro.module#CadastroPageModule'
   }
 ];
 

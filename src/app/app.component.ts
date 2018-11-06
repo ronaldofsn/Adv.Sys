@@ -29,6 +29,11 @@ export class AppComponent {
       title: 'Processos',
       url: '/processos',
       icon: 'list'
+    },
+    {
+      title: 'Agendar',
+      url: '/agendar',
+      icon: 'build'
     }
   ];
 

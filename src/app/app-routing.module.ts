@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'cadastro',
     loadChildren: './cadastro/cadastro.module#CadastroPageModule'
+  },
+  {
+    path: 'agendar',
+    loadChildren: './agendar/agendar.module#AgendarPageModule'
   }
 ];
 

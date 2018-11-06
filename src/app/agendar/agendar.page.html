@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Agendar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  Aqui você agenda seus eventos com o cliente ou escritório:<br>
+
+  <form action="agendar.php" method="post">
+    <br>
+    <br>
+    <br>
+  <table>
+
+    <tr><td><label>Inicio do evento:</label></td><td><input type="datetime-local" name="datainit" id="datainit" required><br></td></tr>
+    <tr><td><label>Fim do evento:</label></td><td><input type="datetime-local" name="datafim" id="datafim" required><br></td></tr>
+
+  </table>
+
+    <textarea name="message" rows="10" cols="40">Descreva seu evento...</textarea><br>
+
+    <input type="submit" value="Agendar" id="agendar" name="agendar">
+    
+  </form>
+
+  <p>Nos siga no facebook <a target="_blank" rel="noopener" href="https://www.facebook.com/ronaldo.santana.14">aqui</a>, obrigado.</p>
+</ion-content>

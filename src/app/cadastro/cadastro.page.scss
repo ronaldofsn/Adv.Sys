@@ -1,20 +1,11 @@
 
 .cadastrar {
 
-    background: #0066A2;
-    
-    color: white;
-    
-    border-style: outset;
-    
-    border-color: #0066A2;
-    
-    height: 50px;
-    
-    width: 100px;
-    
-    font: bold 15px arial, sans-serif;
-    
-    text-shadow:none;
+    --ion-color-success: #10dc60;
+    --ion-color-success-rgb: 16,220,96;
+    --ion-color-success-contrast: #ffffff;
+    --ion-color-success-contrast-rgb: 255,255,255;
+    --ion-color-success-shade: #0ec254;
+    --ion-color-success-tint: #28e070;
     
     }

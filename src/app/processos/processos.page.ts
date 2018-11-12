@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DocumentViewer } from '@ionic-native/document-viewer';
 
 @Component({
   selector: 'app-processos',
@@ -8,3 +9,4 @@ import { Component } from '@angular/core';
 export class ProcessosPage {
 
 }
+

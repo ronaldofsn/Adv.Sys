@@ -10,6 +10,17 @@
 </ion-header>
 
 <ion-content padding>
-  Bem-vindo ao Adv.Sys
+  Bem-vindo ao Adv.Sys<br>
+  Por favor, faça seu login<br>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="Usuario" [(ngModel)]="usuario"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Senha" type="password" [(ngModel)]="senha"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button full (click)="login()">Entrar</button>
+  <button ion-button full color="Light" href="/registrar">Registrar</button>
   <p>Nos siga no facebook <a target="_blank" rel="noopener" href="https://www.facebook.com/ronaldo.santana.14">aqui</a>, obrigado.</p>
 </ion-content>

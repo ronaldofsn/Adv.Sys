@@ -26,7 +26,8 @@ const routes: Routes = [
   {
     path: 'agendar',
     loadChildren: './agendar/agendar.module#AgendarPageModule'
-  }
+  },
+  { path: 'registrar', loadChildren: './registrar/registrar.module#RegistrarPageModule' }
 ];
 
 @NgModule({

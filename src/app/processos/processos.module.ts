@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { ProcessosPage } from './processos.page';
+import { DocumentViewer } from '@ionic-native/document-viewer';
 
 @NgModule({
   imports: [

@@ -19,7 +19,7 @@ export class AppComponent {
     {
       title: 'Cadastrar',
       url: '/registrar',
-      icon: 'wifi'
+      icon: 'cafe'
     },
     {
       title: 'Lista',
@@ -29,12 +29,12 @@ export class AppComponent {
     {
       title: 'Processos',
       url: '/processos',
-      icon: 'list'
+      icon: 'briefcase'
     },
     {
       title: 'Agendar',
       url: '/agendar',
-      icon: 'build'
+      icon: 'calendar'
     }
   ];
 
